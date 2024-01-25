@@ -49,6 +49,10 @@
   background: #fff;
 }
 
-.product-button {
-  background-color: red;
+.product-button-add {
+  background-color: rgb(216, 204, 204);
+}
+
+.product-button-remove {
+  background-color: rgb(233, 48, 48);
 }

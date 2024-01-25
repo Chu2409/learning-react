@@ -54,3 +54,11 @@
   height: 100%;
   display: block;
 }
+
+.clear-button {
+  background-color: white;
+}
+
+.add-item-button {
+  background-color: white;
+}

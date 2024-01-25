@@ -24,11 +24,13 @@ export const Products = ({ products }) => {
               </div>
 
               <div>
-                <button onClick={() => {
-                  isProductInCart
-                    ? removeFromCart(product)
-                    : addToCart(product)
-                }}
+                <button
+                  className={isProductInCart ? 'product-button-remove' : 'product-button-add '}
+                  onClick={() => {
+                    isProductInCart
+                      ? removeFromCart(product)
+                      : addToCart(product)
+                  }}
                 >
                   {
                     isProductInCart
