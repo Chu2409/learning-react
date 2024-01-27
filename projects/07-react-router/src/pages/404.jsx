@@ -1,4 +1,4 @@
-import { Link } from '../Link'
+import { Link } from '../Link.jsx'
 
 const Page404 = () => {
   return (
